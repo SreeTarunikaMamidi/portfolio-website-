@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mamidi Sree Tarunika | Portfolio</title>
+
+<style>
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body { background:#f4f6f9; }
+
+header {
+    display:flex;
+    justify-content:space-between;
+    padding:15px 40px;
+    background:#111;
+    color:white;
+}
+
+nav a {
+    color:white;
+    margin:0 15px;
+    text-decoration:none;
+}
+
+/* HERO */
+.hero {
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    padding:50px;
+    background:linear-gradient(to right,#667eea,#764ba2);
+    color:white;
+    flex-wrap:wrap;
+}
+
+.hero img {
+    width:230px;
+    height:230px;
+    border-radius:50%;
+    object-fit:cover;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+.hero-text {
+    max-width:500px;
+}
+
+.hero-text h1 { font-size:34px; }
+
+.hero-text a {
+    display:inline-block;
+    margin:10px 10px 0 0;
+    padding:8px 15px;
+    background:white;
+    color:#333;
+    border-radius:5px;
+    text-decoration:none;
+    font-size:14px;
+}
+
+/* SECTION */
+section {
+    padding:50px;
+    text-align:center;
+}
+
+.cards {
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:20px;
+}
+
+.card {
+    background:white;
+    padding:20px;
+    width:260px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover { transform:translateY(-5px); }
+
+footer {
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+    .hero {
+        flex-direction:column;
+        text-align:center;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h2>Tarunika</h2>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+    <img src="taruni.jpg" alt="profile">
+
+    <div class="hero-text">
+        <h1>Mamidi Sree Tarunika</h1>
+        <h3>Web Developer</h3>
+        <p>Welcome to my portfolio! I'm a student at Vignan Institute of Information Technology, Visakhapatnam.</p>
+
+        <a href="mailto:taruniranjan9030@gmail.com">Email</a>
+        <a href="https://linkedin.com/in/sree-tarunika-mamidi-799a0a34b" target="_blank">LinkedIn</a>
+        <a href="https://github.com/SreeTarunikaMamidi" target="_blank">GitHub</a>
+    </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am passionate about building responsive websites and developing intelligent systems using modern technologies.</p>
+    <p> AI & Data Science student with strong problem-solving skills and experience in machine learning and full-stack development. Seeking a Software Engineering Internship at a global tech company to build scalable and impactful solutions.</p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="cards">
+        <div class="card">HTML</div>
+        <div class="card">CSS</div>
+        <div class="card">JavaScript</div>
+        <div class="card">Python</div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Nyaya Sahayak – AI Legal Assistant</h3>
+            <p>AI-based system to generate legal documents and assist users.</p>
+        </div>
+        <div class="card">
+            <h3>Walking Ability Prediction Model</h3>
+            <p>Machine learning model to predict walking ability using data analysis.</p>
+        </div>
+        <div class="card">
+            <h3>Ethics Play – Interactive Learning</h3>
+            <p>Interactive web app to teach ethics concepts in an engaging way.</p>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact</h2>
+    <p>ph no: 9573744355</p>
+    <p>Email: taruniranjan9030@gmail.com</p>
+</section>
+
+<footer>
+    <p>© 2026 Mamidi Sree Tarunika</p>
+</footer>
+
+</body>
+</html>
